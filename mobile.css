@@ -1,0 +1,393 @@
+@media screen and (max-width:576px) {
+    body .nav a {
+        display: none;
+    }
+
+    .nnavbar {
+        padding: 8px 15px;
+    }
+
+    .hero-section h1 {
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+    .hero-section {
+        flex-direction: column;
+    }
+
+    .shoe {
+        display: none;
+    }
+
+    .shoe2 {
+        display: block;
+    }
+
+    .shoe2 img {
+        width: 94%;
+        transform: rotate(-20deg);
+    }
+
+    .text {
+        padding: 10px 40px;
+    }
+
+    .text p {
+        width: 100%;
+    }
+
+    section {
+        padding: 50px;
+    }
+
+    .btn {
+        font-size: 20px;
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+
+    .card-header h1 {
+        font-size: 25px;
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    .section1 {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .section-1 img {
+        width: 100%;
+    }
+
+    .section1 h2 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+    .section1 p {
+        line-height: 20px;
+        width: 100%;
+    }
+
+    .best {
+        font-size: 25px;
+    }
+
+    .Reviews h1 {
+        font-size: 35px;
+    }
+
+    .Reviews p {
+        width: 80%;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    .client-reviews {
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+
+    .client-reviews h2 {
+        font-size: 20px;
+    }
+
+    .client-reviews p {
+        font-size: 14px;
+        width: 100%;
+        line-height: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 5px 30px;
+    }
+
+    footer p {
+        font-size: 17px;
+    }
+
+    footer h7 {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    footer li {
+        font-size: 8px;
+        width: 100%;
+        line-height: 30px;
+    }
+}
+
+/* Tablet */
+@media (min-width:577px) and (max-width:768px) {
+    body .nav a {
+        display: none;
+    }
+
+    .nnavbar {
+        padding: 8px 30px;
+    }
+
+    .hero-section h1 {
+        font-size: 80px;
+        font-weight: 700;
+    }
+
+    .hero-section {
+        flex-direction: column;
+    }
+
+    .shoe {
+        display: none;
+    }
+
+    .shoe2 {
+        display: block;
+    }
+
+    .shoe2 img {
+        width: 90%;
+        transform: rotate(-18deg);
+    }
+
+    .text {
+        padding: 10px 20px;
+    }
+
+    .text p {
+        width: 80%;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 5px 8px;
+    }
+
+    section {
+        padding: 50px;
+    }
+
+    .card-header h1 {
+        font-size: 50px;
+        font-weight: 600;
+        padding: 0px;
+        margin-bottom: 40px;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    .section1 {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .section-1 img {
+        width: 100%;
+    }
+
+    .section1 h2 {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 60px;
+    }
+
+    .section1 p {
+        font-size: 16px;
+        line-height: 25px;
+        width: 93%;
+    }
+
+    .best {
+        font-size: 50px;
+    }
+
+    .Reviews h1 {
+        font-size: 45px;
+        font-weight: 600;
+        margin-top: 70px;
+    }
+
+    .Reviews p {
+
+        /* width: 100%; */
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    .client-reviews {
+        flex-wrap: wrap;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .client-reviews h2 {
+        font-size: 18px;
+    }
+
+    .client-reviews p {
+        font-size: 12px;
+        width: 70%;
+        /* line-height: 20px; */
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 10px 60px;
+    }
+
+    .footer h5 {
+        padding: 8px 0px;
+    }
+
+    .footer li {
+        line-height: 35px;
+    }
+
+    .footer p {
+        font-size: 17px;
+    }
+}
+
+/* Laptop*/
+@media (min-width:769px) and (max-width:1024px) {
+    body .nav a {
+        display: flex;
+    }
+
+    .nnavbar {
+        padding: 8px 40px;
+    }
+
+    .hero-section {
+        display: flex;
+    }
+
+    .hero-section h1 {
+        font-size: 85px;
+        font-weight: 700;
+    }
+
+    .shoe {
+        width: 65%;
+    }
+
+    .shoe img {
+        width: 650PX;
+        top: 5%;
+        right: 5%;
+    }
+
+    .shoe2 {
+        display: none;
+    }
+
+    .text {
+        padding: 10px 20px;
+    }
+
+    .text p {
+        width: 90%;
+        line-height: 30PX;
+    }
+
+    section {
+        padding: 50px;
+    }
+
+    .btn {
+        margin-top: 20PX;
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+
+    .card-header h1 {
+        font-size: 25px;
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    .section1 {
+        flex-direction: row;
+        padding: 30px;
+    }
+
+    .section-1 img {
+        width: 100%;
+    }
+
+    .section1 h2 {
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 50px;
+    }
+
+    .best {
+        font-size: 50px;
+    }
+
+    .section1 p {
+        font-size: 40p line-height: 20px;
+        width: 70%;
+    }
+
+    .Reviews h1 {
+        font-size: 95px;
+    }
+
+    .Reviews p {
+        width: 100%;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 35px;
+    }
+
+    .client-reviews {
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+
+    .client-reviews h2 {
+        font-size: 30px;
+    }
+
+    .client-reviews p {
+        font-size: 14px;
+        width: 100%;
+        line-height: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 10px 60px;
+    }
+
+    .footer h5 {
+        padding: 8px 0px;
+    }
+
+    .footer li {
+        line-height: 35px;
+    }
+
+    .footer p {
+        font-size: 17px;
+    }
+}
+}
