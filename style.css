@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+    transition: all;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.nnavbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 100px;
+    background-color: rgba(255, 255, 255, 0.897);
+    color: white;
+    position: sticky;
+    z-index: 1000;
+    width: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    backdrop-filter: blur(30px);
+    box-shadow: 2px gray;
+}
+
+.navbar-logo img {
+    width: 50px;
+}
+
+.nav a {
+    gap: 30px;
+    color: black;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.button {
+    border: none;
+    border-radius: 0;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: linear-gradient(to right, white 50%, blue 50%);
+}
+
+.text {
+    padding: 30px 80px;
+}
+
+.text h1 {
+    font-size: 95px;
+    font-weight: 900;
+}
+
+.text p {
+    font-weight: 700;
+    width: 84%;
+}
+
+.text h1 span {
+    color: #0077b6;
+}
+
+.btn {
+    padding: 5px 10px;
+}
+
+.shoe {
+    position: relative;
+    margin-right: -0px;
+    width: 50%;
+    background: linear-gradient(180deg, #05bef6, #1d58ce);
+}
+
+.shoe img {
+    position: absolute;
+    width: 800px;
+    z-index: 10px;
+    top: 5%;
+    transform: rotate(-20deg);
+    right: 10%;
+}
+
+.shoe2 {
+    display: none;
+    background: linear-gradient(180deg, #05bef6, #1d58ce);
+}
+
+section {
+    padding: 50px 100px;
+}
+
+.card-header h1 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.card {
+    border: none;
+    height: 100%;
+}
+
+.card img {
+    width: 300px;
+    transform: rotate(-20deg);
+}
+
+.card-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.card-text {
+    color: #0077b6;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    gap: 1%;
+    padding: 80px;
+}
+
+span {
+    color: #0077b6;
+}
+
+.section-1 img {
+    width: 500px;
+}
+
+.section1 h2 {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+
+.best {
+    font-size: 65px;
+}
+
+.section1 p {
+    width: 80%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.Reviews {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.Sultan {
+    justify-content: center;
+    text-align: center;
+}
+
+.Reviews h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.Reviews p {
+    width: 50%;
+    margin: 20px auto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.client-reviews {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 90px;
+    gap: 6%;
+    margin-top: 5%;
+}
+
+.client-reviews img {
+    width: 100px;
+    height: 105px;
+    border-radius: 50%;
+}
+
+.client-reviews h2 img {
+    width: 20px;
+    color: #eab308;
+}
+
+.client-reviews h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.client-reviews p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+footer {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 15px 100px;
+    gap: 20px;
+}
+
+footer div {
+    width: 100%;
+}
+
+footer p {
+    width: 80%;
+}
+
+footer h7 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+footer li {
+    line-height: 35px;
+}
